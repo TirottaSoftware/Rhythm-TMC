@@ -22,7 +22,7 @@ NEXT_PUBLIC_APP_URL=http://localhost:3003
 1. Start the development server:
 
 ```
-npm start
+npm run dev
 ```
 
 Open [http://localhost:3003](http://localhost:3003) with your browser to see the result.
