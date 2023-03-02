@@ -7,7 +7,7 @@ function MovementSelector({ options, handleChange }) {
             <select className='w-full outline-none my-2 p-2 text-xl bg-zinc-100 rounded-md' onChange={handleChange}>
                 {
                     options.map(o => {
-                        return <option>{o}</option>
+                        return <option key={o}>{o}</option>
                     })
                 }
             </select>
