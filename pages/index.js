@@ -1,9 +1,9 @@
 import axios from "axios";
-import LineChart from "./LineChart";
-import Chart from 'chart.js/auto';
-import DatePicker from "./DatePicker";
+import LineChart from "../components/LineChart";
+import { Chart as ChartJS } from 'chart.js/auto';
+import DatePicker from "../components/DatePicker";
 import { useState } from "react";
-import MovementSelector from "./MovementSelector";
+import MovementSelector from "../components/MovementSelector";
 
 export default function Home(props) {
   const [data, setData] = useState(props.data)
